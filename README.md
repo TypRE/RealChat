@@ -170,7 +170,7 @@ Predchádza sa tým analýze a iným technikám dešifrovania.
 
 Každý užívateľ má uloženú celú históriu správ vo svojom počítači v šifrovanej podobe.
 Server správy ukladá len na nevyhnutne potrebný čas, kedy čakajú na pripojenie príjemcu. Potom sú tieto šifrované správy automaticky vymazané.
-Pre ochranu lokálne uložených správ a kľúčov je použitý `PBKDF2-HMAC-WHIRLPOOL` algoritmus na odvodenie hlavného aplikačného `AES` kľúča z vášho hesla, ktorý zabezpečuje dáta v lokálnej databáze. To znamená, že ak zabudnete heslo od účtu, tak ste prišli o všetky správy. Je to však dobrá cena za skutočnú ochranu dát. V kritickej situácií je stále možné prekopírovanie dát od druhého užívateľa, ktorý ma svoju kópiu správ a kľúčov.
+Pre ochranu lokálne uložených správ a kľúčov je použitý `PBKDF2-HMAC-WHIRLPOOL` algoritmus na odvodenie hlavného aplikačného `AES` kľúča z vášho hesla, ktorý zabezpečuje aplikačné dáta v lokálnej databáze. To znamená, že ak zabudnete heslo od účtu, tak ste prišli o všetky správy. Je to však dobrá cena za skutočnú ochranu dát. V kritickej situácií je stále možné prekopírovanie dát od druhého užívateľa, ktorý ma svoju kópiu správ a kľúčov.
 
 ## Súbory
 
